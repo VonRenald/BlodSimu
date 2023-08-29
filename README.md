@@ -2,5 +2,10 @@
 
 ## Introduction
 
-Blob Simulation est une simulation de vie réalisée en c++ avec une interface Qt.
-le code n'est pas compilé, il faut l'ouvrir avec Qt pour pouvoir l'éditer et l'exécuter.
+Blob Simulation est une simulation de vie.
+Ici sont présents 3 versions : 
+- une application Qt fonctionnant avec opengl
+- une application DotNet fonctionnant avec DirectX
+- une application Web fonctionnant avec WebGl
+
+Toutes ces versions cherchent à paralléliser les calcules afin d'avoir un affichage temps réel 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple WebGL</title>
+    <style>
+        /* CSS */
+        .myBody {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        canvas {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="myBody">
+        <canvas id="myCanvas" width="400" height="400"></canvas>
+        <p id="angle">angle : 0</p>
+
+    </div>
+    <!-- Incluez le script gl.js -->
+    <script src="AntImg.js"></script>
+</body>
+</html>
